@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <head>
     <meta name="viewport" 
@@ -31,12 +34,8 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Carlo Alberto Salustri, in arte Trilussa</h1>
-        <nav>
+{% include header.html %}
 
-        </nav>
-    </header>
     <main>
         <p>Ecco le mie poesie preferite</p>
         <a href="trilussa-el-leone-riconoscente.html">El leone riconoscente</a><br>
@@ -44,4 +43,5 @@
         <a href="altra poesia.html">altra poesia</a>
         <a href="altra poesia.html">altra nuova poesia</a>
     </main>
-
+    
+{% include footer.html %}
