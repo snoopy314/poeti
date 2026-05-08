@@ -4,6 +4,9 @@ body {
     font-family:Arial;
     padding-left: 50px;
 }
+header{
+    background-color: blue;    
+}
 h1 {
     font-size: 30px;
 }
