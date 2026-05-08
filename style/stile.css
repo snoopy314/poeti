@@ -7,6 +7,9 @@ body {
 header {
     background-color: blue;    
 }
+header > h1 {
+    color: white;    
+}
 h1 {
     font-size: 30px;
 }
